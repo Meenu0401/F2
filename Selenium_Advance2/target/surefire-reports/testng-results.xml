@@ -8,68 +8,68 @@
       <![CDATA[Browser is launched]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-07-29T12:51:33 IST" name="Suite" finished-at="2024-07-29T12:52:05 IST" duration-ms="32158">
+  <suite started-at="2024-07-30T15:24:45 IST" name="Suite" finished-at="2024-07-30T15:25:51 IST" duration-ms="65994">
     <groups>
       <group name="SmokeTest">
         <method signature="ContactModuleTest.createContactTest()[pri:0, instance:com.comcast.crm.contact.ContactModuleTest@5a955565]" name="createContactTest" class="com.comcast.crm.contact.ContactModuleTest"/>
         <method signature="OrgModuleTest.createOrgTest()[pri:0, instance:com.comcast.crm.org.OrgModuleTest@78b729e6]" name="createOrgTest" class="com.comcast.crm.org.OrgModuleTest"/>
       </group> <!-- SmokeTest -->
     </groups>
-    <test started-at="2024-07-29T12:51:33 IST" name="Test" finished-at="2024-07-29T12:52:05 IST" duration-ms="32158">
+    <test started-at="2024-07-30T15:24:45 IST" name="Test" finished-at="2024-07-30T15:25:51 IST" duration-ms="65994">
       <class name="com.comcast.crm.org.OrgModuleTest">
-        <test-method is-config="true" signature="configBS()[pri:0, instance:com.comcast.crm.org.OrgModuleTest@78b729e6]" started-at="2024-07-29T12:51:33 IST" name="configBS" finished-at="2024-07-29T12:51:33 IST" duration-ms="369" status="PASS">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.comcast.crm.org.OrgModuleTest@78b729e6]" started-at="2024-07-30T15:24:44 IST" name="configBS" finished-at="2024-07-30T15:24:45 IST" duration-ms="352" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBS -->
-        <test-method is-config="true" signature="configBC()[pri:0, instance:com.comcast.crm.org.OrgModuleTest@78b729e6]" started-at="2024-07-29T12:51:33 IST" name="configBC" finished-at="2024-07-29T12:51:38 IST" duration-ms="4840" status="PASS">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.comcast.crm.org.OrgModuleTest@78b729e6]" started-at="2024-07-30T15:24:45 IST" name="configBC" finished-at="2024-07-30T15:24:52 IST" duration-ms="6856" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser is launched]]>
             </line>
           </reporter-output>
         </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.crm.org.OrgModuleTest@78b729e6]" started-at="2024-07-29T12:51:38 IST" name="configBM" finished-at="2024-07-29T12:51:42 IST" duration-ms="3788" status="PASS">
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.crm.org.OrgModuleTest@78b729e6]" started-at="2024-07-30T15:24:52 IST" name="configBM" finished-at="2024-07-30T15:24:59 IST" duration-ms="7785" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method signature="createOrgTest()[pri:0, instance:com.comcast.crm.org.OrgModuleTest@78b729e6]" started-at="2024-07-29T12:51:42 IST" name="createOrgTest" finished-at="2024-07-29T12:51:50 IST" duration-ms="8140" status="PASS">
+        <test-method signature="createOrgTest()[pri:0, instance:com.comcast.crm.org.OrgModuleTest@78b729e6]" started-at="2024-07-30T15:24:59 IST" name="createOrgTest" finished-at="2024-07-30T15:25:20 IST" duration-ms="20218" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createOrgTest -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.crm.org.OrgModuleTest@78b729e6]" started-at="2024-07-29T12:51:50 IST" name="configAM" finished-at="2024-07-29T12:51:51 IST" duration-ms="1458" status="PASS">
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.crm.org.OrgModuleTest@78b729e6]" started-at="2024-07-30T15:25:20 IST" name="configAM" finished-at="2024-07-30T15:25:22 IST" duration-ms="2154" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:com.comcast.crm.org.OrgModuleTest@78b729e6]" started-at="2024-07-29T12:51:51 IST" name="configAC" finished-at="2024-07-29T12:51:51 IST" duration-ms="209" status="PASS">
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.comcast.crm.org.OrgModuleTest@78b729e6]" started-at="2024-07-30T15:25:22 IST" name="configAC" finished-at="2024-07-30T15:25:22 IST" duration-ms="440" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAC -->
-        <test-method is-config="true" signature="configAS()[pri:0, instance:com.comcast.crm.org.OrgModuleTest@78b729e6]" started-at="2024-07-29T12:52:05 IST" name="configAS" finished-at="2024-07-29T12:52:05 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.comcast.crm.org.OrgModuleTest@78b729e6]" started-at="2024-07-30T15:25:51 IST" name="configAS" finished-at="2024-07-30T15:25:51 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAS -->
       </class> <!-- com.comcast.crm.org.OrgModuleTest -->
       <class name="com.comcast.crm.contact.ContactModuleTest">
-        <test-method is-config="true" signature="configBC()[pri:0, instance:com.comcast.crm.contact.ContactModuleTest@5a955565]" started-at="2024-07-29T12:51:51 IST" name="configBC" finished-at="2024-07-29T12:51:53 IST" duration-ms="1612" status="PASS">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.comcast.crm.contact.ContactModuleTest@5a955565]" started-at="2024-07-30T15:25:22 IST" name="configBC" finished-at="2024-07-30T15:25:25 IST" duration-ms="2618" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser is launched]]>
             </line>
           </reporter-output>
         </test-method> <!-- configBC -->
-        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.crm.contact.ContactModuleTest@5a955565]" started-at="2024-07-29T12:51:53 IST" name="configBM" finished-at="2024-07-29T12:51:56 IST" duration-ms="2924" status="PASS">
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.crm.contact.ContactModuleTest@5a955565]" started-at="2024-07-30T15:25:25 IST" name="configBM" finished-at="2024-07-30T15:25:31 IST" duration-ms="5701" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method signature="createContactTest()[pri:0, instance:com.comcast.crm.contact.ContactModuleTest@5a955565]" started-at="2024-07-29T12:51:56 IST" name="createContactTest" finished-at="2024-07-29T12:52:04 IST" duration-ms="7827" status="PASS">
+        <test-method signature="createContactTest()[pri:0, instance:com.comcast.crm.contact.ContactModuleTest@5a955565]" started-at="2024-07-30T15:25:31 IST" name="createContactTest" finished-at="2024-07-30T15:25:47 IST" duration-ms="16714" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createContactTest -->
-        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.crm.contact.ContactModuleTest@5a955565]" started-at="2024-07-29T12:52:04 IST" name="configAM" finished-at="2024-07-29T12:52:05 IST" duration-ms="1098" status="PASS">
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.crm.contact.ContactModuleTest@5a955565]" started-at="2024-07-30T15:25:47 IST" name="configAM" finished-at="2024-07-30T15:25:50 IST" duration-ms="2718" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAM -->
-        <test-method is-config="true" signature="configAC()[pri:0, instance:com.comcast.crm.contact.ContactModuleTest@5a955565]" started-at="2024-07-29T12:52:05 IST" name="configAC" finished-at="2024-07-29T12:52:05 IST" duration-ms="215" status="PASS">
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.comcast.crm.contact.ContactModuleTest@5a955565]" started-at="2024-07-30T15:25:50 IST" name="configAC" finished-at="2024-07-30T15:25:51 IST" duration-ms="690" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAC -->
