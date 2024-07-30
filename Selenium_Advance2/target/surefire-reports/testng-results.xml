@@ -1,17 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="6" total="8" passed="2" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Browser is launched]]>
+    </line>
+    <line>
+      <![CDATA[Browser is launched]]>
+    </line>
   </reporter-output>
-  <suite started-at="2024-06-28T01:06:09Z" name="Surefire suite" finished-at="2024-06-28T01:06:24Z" duration-ms="15072">
+  <suite started-at="2024-07-29T12:51:33 IST" name="Suite" finished-at="2024-07-29T12:52:05 IST" duration-ms="32158">
     <groups>
+      <group name="SmokeTest">
+        <method signature="ContactModuleTest.createContactTest()[pri:0, instance:com.comcast.crm.contact.ContactModuleTest@5a955565]" name="createContactTest" class="com.comcast.crm.contact.ContactModuleTest"/>
+        <method signature="OrgModuleTest.createOrgTest()[pri:0, instance:com.comcast.crm.org.OrgModuleTest@78b729e6]" name="createOrgTest" class="com.comcast.crm.org.OrgModuleTest"/>
+      </group> <!-- SmokeTest -->
     </groups>
-    <test started-at="2024-06-28T01:06:09Z" name="Surefire test" finished-at="2024-06-28T01:06:24Z" duration-ms="15072">
-      <class name="VTiger_TestCases.VTiger_Org_Test">
-        <test-method signature="createOrgTest()[pri:0, instance:VTiger_TestCases.VTiger_Org_Test@2d127a61]" started-at="2024-06-28T01:06:09Z" name="createOrgTest" finished-at="2024-06-28T01:06:24Z" duration-ms="15029" status="PASS">
+    <test started-at="2024-07-29T12:51:33 IST" name="Test" finished-at="2024-07-29T12:52:05 IST" duration-ms="32158">
+      <class name="com.comcast.crm.org.OrgModuleTest">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.comcast.crm.org.OrgModuleTest@78b729e6]" started-at="2024-07-29T12:51:33 IST" name="configBS" finished-at="2024-07-29T12:51:33 IST" duration-ms="369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.comcast.crm.org.OrgModuleTest@78b729e6]" started-at="2024-07-29T12:51:33 IST" name="configBC" finished-at="2024-07-29T12:51:38 IST" duration-ms="4840" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.crm.org.OrgModuleTest@78b729e6]" started-at="2024-07-29T12:51:38 IST" name="configBM" finished-at="2024-07-29T12:51:42 IST" duration-ms="3788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createOrgTest()[pri:0, instance:com.comcast.crm.org.OrgModuleTest@78b729e6]" started-at="2024-07-29T12:51:42 IST" name="createOrgTest" finished-at="2024-07-29T12:51:50 IST" duration-ms="8140" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createOrgTest -->
-      </class> <!-- VTiger_TestCases.VTiger_Org_Test -->
-    </test> <!-- Surefire test -->
-  </suite> <!-- Surefire suite -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.crm.org.OrgModuleTest@78b729e6]" started-at="2024-07-29T12:51:50 IST" name="configAM" finished-at="2024-07-29T12:51:51 IST" duration-ms="1458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.comcast.crm.org.OrgModuleTest@78b729e6]" started-at="2024-07-29T12:51:51 IST" name="configAC" finished-at="2024-07-29T12:51:51 IST" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.comcast.crm.org.OrgModuleTest@78b729e6]" started-at="2024-07-29T12:52:05 IST" name="configAS" finished-at="2024-07-29T12:52:05 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- com.comcast.crm.org.OrgModuleTest -->
+      <class name="com.comcast.crm.contact.ContactModuleTest">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.comcast.crm.contact.ContactModuleTest@5a955565]" started-at="2024-07-29T12:51:51 IST" name="configBC" finished-at="2024-07-29T12:51:53 IST" duration-ms="1612" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.crm.contact.ContactModuleTest@5a955565]" started-at="2024-07-29T12:51:53 IST" name="configBM" finished-at="2024-07-29T12:51:56 IST" duration-ms="2924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createContactTest()[pri:0, instance:com.comcast.crm.contact.ContactModuleTest@5a955565]" started-at="2024-07-29T12:51:56 IST" name="createContactTest" finished-at="2024-07-29T12:52:04 IST" duration-ms="7827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.crm.contact.ContactModuleTest@5a955565]" started-at="2024-07-29T12:52:04 IST" name="configAM" finished-at="2024-07-29T12:52:05 IST" duration-ms="1098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.comcast.crm.contact.ContactModuleTest@5a955565]" started-at="2024-07-29T12:52:05 IST" name="configAC" finished-at="2024-07-29T12:52:05 IST" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.comcast.crm.contact.ContactModuleTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

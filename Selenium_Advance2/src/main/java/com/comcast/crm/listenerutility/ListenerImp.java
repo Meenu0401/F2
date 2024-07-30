@@ -69,7 +69,7 @@ public class ListenerImp implements ITestListener,ISuiteListener {
 	
 	public void onTestFailure(ITestResult result) {
 		String testname = result.getMethod().getMethodName();
-		TakesScreenshot eDriver=(TakesScreenshot)BaseClass.sdriver;
+		TakesScreenshot eDriver=(TakesScreenshot)UtilityClassObject.getDriver();
 		String filepath = eDriver.getScreenshotAs(OutputType.BASE64);
 		String time = jlib.getCurrentTime();
 		test.addScreenCaptureFromBase64String(filepath,testname+"_"+time);

@@ -3,6 +3,7 @@ package com.comcast.crm.contact;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.Status;
@@ -25,6 +26,7 @@ import com.comcast.crm.webdriverutility.WebDriverUtility;
  * 2. create contact with support date
  * 3. create contact with org
  */
+@Listeners(com.comcast.crm.listenerutility.ListenerImp.class)
 public class ContactModuleTest extends BaseClass {
 	/**
 	 * Scenario : login()===> navigate to contact===> createcontact===> verify

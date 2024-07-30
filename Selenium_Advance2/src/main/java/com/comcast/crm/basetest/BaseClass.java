@@ -43,7 +43,7 @@ public class BaseClass {
 		System.out.println("*******Close Connection********");
 	}
 	
-	@BeforeClass
+	@BeforeClass(groups= {"SmokeTest","RegressionTest"})
 	public void configBC() throws Throwable
 	{
 		System.out.println("Launch Browser");
@@ -67,12 +67,12 @@ public class BaseClass {
 		Assert.assertNotNull(driver, "Browser is launched");
 		Reporter.log("Browser is launched",true);
 	}
-	@AfterClass()
+	@AfterClass(groups= {"SmokeTest","RegressionTest"})
 	public void configAC() {
 		System.out.println("Close Browser");
 		driver.quit();
 	}
-	@BeforeMethod
+	@BeforeMethod(groups= {"SmokeTest","RegressionTest"})
 	public void configBM() throws Throwable{
 		System.out.println("Login to App");
 		String URL = flib.getDataFromProp("url");
@@ -82,7 +82,7 @@ public class BaseClass {
 		LoginPage lp=new LoginPage(driver);
 		lp.loginToApp(URL,USERNAME, PASSWORD);
 	}
-	@AfterMethod()
+	@AfterMethod(groups= {"SmokeTest","RegressionTest"})
 	public void configAM()
 	{
 		System.out.println("Logout from the app");
